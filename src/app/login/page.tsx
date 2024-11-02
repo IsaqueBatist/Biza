@@ -1,12 +1,6 @@
-import { 
-  MainContainer
-} from "./style";
-import darkBackground from "../../../public/darbackground.png"
-
-export default function Login(){
-  return(
-    <MainContainer>
-      ola
-    </MainContainer>
+import "./style.d.css"
+export default function Login() {
+  return (
+    <h1>Login page</h1>
   )
 }
